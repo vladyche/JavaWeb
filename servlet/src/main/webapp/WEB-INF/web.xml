@@ -13,4 +13,14 @@
         <servlet-name>demoServlet</servlet-name>
         <url-pattern>/servlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>demoJSP</servlet-name>
+        <servlet-class>com.servlet.demo.DemoJSP</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>demoJSP</servlet-name>
+        <url-pattern>/jsp</url-pattern>
+    </servlet-mapping>
 </web-app>
