@@ -19,7 +19,7 @@ public class BlogPostPreviewJDBCDAO implements BlogPostPreviewDAO{
     public List<BlogPostPreview> previews() {
         List<BlogPostPreview> previews = new ArrayList<>();
 
-        BlogPostPreview blogPostPreview = null;
+        BlogPostPreview blogPostPreview;
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
